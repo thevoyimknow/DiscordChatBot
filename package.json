@@ -1,0 +1,19 @@
+{
+  "name": "discordchatbot",
+  "version": "1.0.0",
+  "description": "A discord chatbot making use of AI",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "*",
+    "fastpriorityqueue": "*",
+    "discord.js-selfbot-v11": "*",
+    "openai": "*",
+    "sleep-promise": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
